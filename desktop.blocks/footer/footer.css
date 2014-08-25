@@ -1,0 +1,35 @@
+.footer {
+  margin: 40px 0 30px;
+  font-size: 11px;
+  color: #808080;
+}
+.footer__footer-left {
+  float: left;
+  padding: 0 10px;
+  margin-right: 20px;
+  width: 270px;
+  line-height: 15px;
+}
+.footer__footer-left .footer__logo {
+  margin-bottom: 8px;
+}
+.footer__footer-center {
+  float: left;
+  width: 640px;
+}
+.footer__pay {
+  clear: both;
+  width: 50%;
+  margin: 0 auto 0;
+  padding-top: 40px;
+}
+.footer__pay > img {
+  display: inline-block;
+  top: 10px;
+  position: relative;
+}
+.footer:after {
+  clear: both;
+  content: "";
+  display: block;
+}

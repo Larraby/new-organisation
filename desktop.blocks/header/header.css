@@ -1,0 +1,31 @@
+.header__logo {
+  margin: 20px 40px 0 0;
+  float: left;
+}
+.header__user-menu {
+  display: block;
+  float: right;
+  position: relative;
+  margin-top: 31px;
+  padding: 10px 53px 9px 11px;
+  white-space: nowrap;
+  text-align: left;
+  border-radius: 2px;
+  background: #4d7a99;
+  max-width: 210px;
+  color: #fff;
+}
+.header__user-menu:after {
+  content: "";
+  position: absolute;
+  top: 16px;
+  right: 12px;
+  width: 7px;
+  height: 4px;
+  background: url('../../i/down.png') no-repeat;
+}
+.header:after {
+  clear: both;
+  content: "";
+  display: block;
+}

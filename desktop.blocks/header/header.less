@@ -1,0 +1,32 @@
+.header{
+
+  &__logo{
+    margin:20px 40px 0 0;
+    float:left;
+  }
+  &__user-menu{
+    display: block;
+    float: right;
+
+    position: relative;
+    margin-top: 31px;
+    padding: 10px 53px 9px 11px;
+    white-space: nowrap;
+    text-align: left;
+    border-radius: 2px;
+    background: #4d7a99;
+    max-width: 210px;
+    color:#fff;
+
+    &:after{
+      content:"";
+      position: absolute;
+      top: 16px;
+      right: 12px;
+      width: 7px;
+      height: 4px;
+      background: url('../../i/down.png') no-repeat;
+    }
+  }
+  &:after{clear:both;content:"";display: block;}
+}

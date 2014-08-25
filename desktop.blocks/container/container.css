@@ -1,0 +1,17 @@
+.container{
+    width:100%;
+}
+
+.container__inner{
+    width:950px;
+    margin:0 auto;
+}
+
+
+.container_user-header{
+    background-color: #253948;
+}
+
+.container_header{
+    background-color:#3a6480;
+}

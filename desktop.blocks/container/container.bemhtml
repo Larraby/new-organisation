@@ -1,0 +1,8 @@
+block('container')(
+    content()(function() {
+        return {
+            elem: 'inner',
+            content: applyNext()
+        };
+    })
+)

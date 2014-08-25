@@ -1,0 +1,12 @@
+
+.user-header
+{
+    font-size:12px;
+    line-height: 12px;
+
+    color:#fff;
+}
+
+.user-header a{
+    font-weight: bold;
+}
